@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-data2 = pd.read_csv('/Users/cuixinlei/Desktop/web-application/DVSF3.csv')
+data2 = pd.read_csv('DVSF3.csv')
 data2 = data2.drop(data2.columns[[0]], axis=1)
 
 print(data2)
